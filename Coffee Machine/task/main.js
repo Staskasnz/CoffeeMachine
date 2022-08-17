@@ -86,7 +86,7 @@ function buy(num) {
             Would you like to continue buying without sugar? 1 - Yes, 2 - No:`);
             let answer = Number(input());
             if (answer === 1) {
-                subtract(num);
+                subastract(num);
             } else if (answer === 2) {
                 return;
             }
